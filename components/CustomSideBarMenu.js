@@ -13,7 +13,6 @@ import * as ImagePicker from "expo-image-picker";
 import * as Permissions from "expo-permissions";
 import firebase from "firebase";
 import db from "../config";
-import axios from "axios";
 
 export default class CustomSideBarMenu extends Component {
   state = {
